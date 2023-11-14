@@ -144,7 +144,7 @@ h1 {
 .services__img {
   position: relative;
   height: 717px;
-  background-image: url(/services_.png);
+  background-image: url(services_.png);
 }
 .services__img-text {
   position: absolute;
