@@ -123,8 +123,8 @@ h1 {
 }
 .services {
   margin-bottom: 150px;
- width: 1400px;
-  margin: 0 auto;
+ /* width: 1400px;
+  margin: 0 auto; */
 }
 .services__black {
   padding-top: 151px;
