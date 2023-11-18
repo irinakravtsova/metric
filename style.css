@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Manrope", sans-serif;
   font-weight: 400;
@@ -8,8 +11,9 @@ main {
   /* width: 1440px;  */
 }
 .container {
-  max-width: 1150px;
+  max-width: 1180px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 h1 {
   margin-bottom: 30px;
@@ -29,7 +33,7 @@ h1 {
 .white {
   color: #fff;
 }
-.text-h3 {
+.title-h3 {
   padding-bottom: 15px;
   font-size: 30px;
   letter-spacing: -0.9px;
@@ -119,7 +123,7 @@ h1 {
 }
 .services {
   margin-bottom: 150px;
-  max-width: 1400px;
+ width: 1400px;
   margin: 0 auto;
 }
 .services__black {
@@ -142,9 +146,14 @@ h1 {
   text-transform: none;
 }
 .services__img {
+  margin-bottom: 186px;
   position: relative;
   height: 717px;
   background-image: url(services_.png);
+  background-repeat: no-repeat;
+ background-size: cover;
+ background-position: 50% 50%;
+
 }
 .services__img-text {
   position: absolute;
@@ -155,3 +164,47 @@ h1 {
   color: #fff;
   text-transform: none;
 }
+.section__nav {
+  width: 1150px;
+  margin: 0 auto;
+  padding-top: 33px;
+}
+.logo-link {
+  margin-right: 546px;
+}
+.header__nav {
+  display: inline-block;
+}
+.header__nav-link {
+  margin-right: 60px;
+  text-decoration: none;
+}
+.header__nav-link:last-child {
+  margin-right: 0;
+}
+.header__nav-link:hover, .active {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+.contacts {
+  
+}
+.title-wrapper {
+  position: relative;
+}
+.title-wrapper::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -32px;
+  width: 24px;
+  height: 24px;
+  background-image: url(icon_phone.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+
+}
+
+
+
