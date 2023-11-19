@@ -19,21 +19,27 @@
   <body>
     <header>
       <section class="section__nav">
-        <a class="logo-link" href="/">
-          <img src="logo_mетрика.png" alt="logo_mетрика">
-        </a>
-        <div class="header__nav">
-          <a class="title-tag header__nav-link" href="#aboutus">О нас</a>
-          <a class="title-tag header__nav-link" href="#projects">Проекты</a>
-          <a class="title-tag header__nav-link" href="#services">Услуги</a>
-          <a class="title-tag header__nav-link" href="#contacts">Контакты</a>
+        <div class="container">
+          <a class="logo-link" href="/">
+            <img class="logo" src="logo_mетрика.png" alt="logo_mетрика">
+       
+            </a>
+         
+          
+          <div class="header__nav">
+            <a class="title-tag header__nav-link active" href="#aboutus">О нас</a>
+            <a class="title-tag header__nav-link" href="#projects">Проекты</a>
+            <a class="title-tag header__nav-link" href="#services">Услуги</a>
+            <a class="title-tag header__nav-link" href="#contacts">Контакты</a>
+          </div>
         </div>
+      
       </section>
     </header>
     <main>
       <section class="interior">
         <div class="container">
-          <h1>Современные и стильные интерьеры для комфортной жизни</h1>
+          <h1 class="title-h1" >Современные и стильные интерьеры для комфортной жизни</h1>
           <div class="interior__img">
             <p class="interior__text">
               Мы - команда квалифицированных дизайнеров и архитекторов,
@@ -52,7 +58,7 @@
             каждого интерьера, вплоть до каждой детали — нацелены на результат.
           </p>
           <div class="about__btn">
-            <a class="about__btn-text" href="/">Посмотреть услуги</a>
+            <a class="about__btn-text" href="#services">Посмотреть услуги</a>
           </div>
         </div>
       </section>
@@ -132,13 +138,38 @@
       <section id="contacts" class="contacts">
         <div class="container">
           <div class="title-wrapper">
-            <h2 class="title-tag">Контакты</h2>
+            <h2 class="title-tag contacts-h2">Контакты</h2>
+            <p class="title-h1 ">
+              <a class="tel" href="tel:+7935895-45-35">+7 935  895-45-35</a>
+            </p>
+            <p class="title-h1">
+              <a class="mailto" href="mailto:hello@mail.com">hello@mail.com</a>
+            </p>
           </div>
-
-          
         </div>
-        
       </section>
     </main>
+    <footer>
+      <div class="footer__menu">
+        <div class="footer__menu-box">
+          <a class="title-tag footer-box" href="#aboutus">О нас</a>
+          <!-- <h2 class="title-tag footer-box">о нас</h2> -->
+        </div>
+        <div class="footer__menu-box">
+          <a class="title-tag footer-box" href="#projects">Проекты</a>
+          <!-- <h2 class="title-tag footer-box">проекты</h2> -->
+        </div>
+        <div class="footer__menu-box">
+          <a class="title-tag footer-box" href="#services">Услуги</a>
+          <!-- <h2 class="title-tag footer-box">услуги</h2> -->
+        </div>
+        <div class="footer__menu-box">
+          <a class="title-tag footer-box" href="#contacts">Контакты</a>
+          <!-- <h2 class="title-tag footer-box">контакты</h2> -->
+        </div>
+      </div>
+      <p class="footer-text">студия дизайна интерьера Метрика — 2023</p>
+      
+    </footer>
   </body>
 </html>
