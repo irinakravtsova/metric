@@ -15,7 +15,7 @@ main {
   margin: 0 auto;
   padding: 0 15px;
 }
-.title-h1 {
+.interior__title {
   margin-bottom: 30px;
   width: 956px;
   font-size: 60px;
@@ -31,6 +31,7 @@ main {
   color: #121212;
 }
 .white {
+  padding-left: 3px;
   color: #fff;
 }
 .title-h3 {
@@ -117,14 +118,14 @@ main {
   border-radius: 5px;
 }
 .projects {
-  margin-bottom: 150px;
+  margin-bottom: 148px;
 }
 .projects__ul {
   padding-top: 30px;
 }
 
 .projects__item {
-  margin-bottom: 90px;
+  margin-bottom: 89px;
 }
 .projects__img {
   margin-bottom: 12px;
@@ -154,30 +155,31 @@ main {
   background-color: #ad1818;
   color: #fff;
 }
-
-.services__black {
+.services {
   padding-top: 151px;
   background: #121212;
+}
+.services__black {
+  
 }
 .services__items {
   padding-top: 34px;
 }
 .services__item {
-  padding-bottom: 60px;
+  padding-bottom: 44px;
 }
 .services__item:nth-last-child(1) {
-  padding-bottom: 150px;
+  padding-bottom: 134px;
 }
 .services-h3 {
   padding-top: 13px;
-  padding-bottom: 0;
+padding-left: 4px;
   color: #fff;
   text-transform: none;
 }
 .services__img {
   margin-bottom: 186px;
-  position: relative;
-  height: 717px;
+   height: 717px;
   background-image: url(services_.png);
   background-repeat: no-repeat;
  background-size: cover;
@@ -185,23 +187,20 @@ main {
 
 }
 .services__img-text {
-  position: absolute;
+ padding-top: 575px;
+ padding-left: 2px;
+ width: 443px;
   padding-bottom: 0;
-  left: 125px;
-  bottom: 60px;
-  width: 443px;
-  color: #fff;
+ color: #fff;
   text-transform: none;
 }
-
 .contacts {
-  margin-bottom: 159px;
-  
+  margin-bottom: 129px;
 }
-.title-wrapper {
+.contacts__title-wrapper {
   position: relative;
 }
-.title-wrapper::before {
+.contacts__title-wrapper::before {
   content: '';
   display: block;
   position: absolute;
@@ -215,6 +214,7 @@ main {
   background-position: 50%;
 }
 .tel {
+  padding-bottom: 31px;
    text-decoration: none;
   color: #121212;
   letter-spacing: -2;
@@ -225,15 +225,20 @@ main {
   color: #121212;
   border-bottom: 2px solid #121212 ;
 }
-.contacts-h2 {
+.contacts-title {
   padding-bottom: 32px; 
+ 
 }
-
+.contacts__contact {
+ padding-bottom: 31px;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -1.8px;
+}
 footer {
   background-color: #121212;
   color: #fff;
 }
-
 .footer__menu {
   width: 458px;
   margin: 0 auto;
