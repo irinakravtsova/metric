@@ -42,13 +42,12 @@ main {
   text-transform: uppercase;
 }
 .section__nav {
-    padding-top: 32px;
+  padding-top: 32px;
 }
-.container-logo
-.logo-link {
+.container-logo .logo-link {
   margin-right: 547px;
-  width: 125px; 
-  }
+  width: 125px;
+}
 .logo {
   width: 127px;
   height: 22px;
@@ -65,7 +64,7 @@ main {
 .header__nav-link:last-child {
   margin-right: 0;
 }
-.header__nav-link:hover  {
+.header__nav-link:hover {
   opacity: 0.5;
   border-bottom: 2px solid #121212;
 }
@@ -132,7 +131,6 @@ main {
   margin-bottom: 12px;
   width: 100%;
 }
-
 .projects__link {
   font-size: 20px;
   line-height: normal;
@@ -160,9 +158,6 @@ main {
   padding-top: 151px;
   background: #121212;
 }
-.services__black {
-  
-}
 .services__items {
   padding-top: 34px;
 }
@@ -174,25 +169,24 @@ main {
 }
 .services-h3 {
   padding-top: 13px;
-padding-left: 4px;
+  padding-left: 4px;
   color: #fff;
   text-transform: none;
 }
 .services__img {
-  margin-bottom: 187px;
-   height: 717px;
+  margin-bottom: 185px;
+  height: 717px;
   background-image: url(services_.png);
   background-repeat: no-repeat;
- background-size: cover;
- background-position: 50% 50%;
-
+  background-size: cover;
+  background-position: 50% 50%;
 }
 .services__img-text {
- padding-top: 575px;
- padding-left: 2px;
- width: 443px;
+  padding-top: 575px;
+  padding-left: 2px;
+  width: 443px;
   padding-bottom: 0;
- color: #fff;
+  color: #fff;
   text-transform: none;
 }
 .contacts {
@@ -202,7 +196,7 @@ padding-left: 4px;
   position: relative;
 }
 .contacts__title-wrapper::before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   top: -38px;
@@ -216,7 +210,7 @@ padding-left: 4px;
 }
 .tel {
   padding-bottom: 31px;
-   text-decoration: none;
+  text-decoration: none;
   color: #121212;
   letter-spacing: -2;
 }
@@ -224,14 +218,13 @@ padding-left: 4px;
   opacity: 0.5;
   text-decoration: none;
   color: #121212;
-  border-bottom: 2px solid #121212 ;
+  border-bottom: 2px solid #121212;
 }
 .contacts-title {
-  padding-bottom: 32px; 
- 
+  padding-bottom: 32px;
 }
 .contacts__contact {
- padding-bottom: 31px;
+  padding-bottom: 31px;
   font-size: 60px;
   line-height: 60px;
   letter-spacing: -1.8px;
@@ -250,7 +243,7 @@ footer {
   display: inline-block;
   box-sizing: border-box;
   margin-right: 52px;
- }
+}
 .footer__menu-box:nth-last-child(1) {
   margin-right: 0;
 }
@@ -264,11 +257,8 @@ footer {
 .footer-text {
   text-align: center;
   padding-bottom: 30px;
- font-size: 20px;
-line-height: normal;
-letter-spacing: -0.6px;
-color: #FFF;
+  font-size: 20px;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  color: #fff;
 }
-
-
-
