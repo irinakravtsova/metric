@@ -101,6 +101,7 @@ main {
   padding-top: 30px;
   padding-right: 80px;
   padding-bottom: 27px;
+  padding-left: 3px;
   font-size: 45px;
   line-height: normal;
   letter-spacing: -1.35px;
@@ -118,14 +119,14 @@ main {
   border-radius: 5px;
 }
 .projects {
-  margin-bottom: 148px;
+  margin-bottom: 150px;
 }
 .projects__ul {
   padding-top: 30px;
 }
 
 .projects__item {
-  margin-bottom: 89px;
+  margin-bottom: 90px;
 }
 .projects__img {
   margin-bottom: 12px;
@@ -169,7 +170,7 @@ main {
   padding-bottom: 44px;
 }
 .services__item:nth-last-child(1) {
-  padding-bottom: 134px;
+  padding-bottom: 138px;
 }
 .services-h3 {
   padding-top: 13px;
@@ -178,7 +179,7 @@ padding-left: 4px;
   text-transform: none;
 }
 .services__img {
-  margin-bottom: 186px;
+  margin-bottom: 187px;
    height: 717px;
   background-image: url(services_.png);
   background-repeat: no-repeat;
