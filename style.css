@@ -16,7 +16,7 @@ main {
   padding: 0 15px;
 }
 .interior__title {
-  margin-bottom: 30px;
+  margin-bottom: 32px;
   width: 956px;
   font-size: 60px;
   line-height: 60px; /* 100% */
@@ -50,7 +50,7 @@ main {
 }
 .logo-link {
   display: inline-block;
-  margin-right: 547px;
+  margin-right: 553px;
 
 }
 .logo {
@@ -67,7 +67,7 @@ nav {
 
 }
 .menu-link {
-  margin-right: 60px;
+  margin-right: 58px;
   text-decoration: none;
 }
 .menu-link:last-child {
@@ -107,7 +107,7 @@ nav {
 .about__text {
   padding-top: 30px;
   padding-right: 80px;
-  padding-bottom: 27px;
+  padding-bottom: 30px;
   padding-left: 3px;
   font-size: 45px;
   line-height: normal;
@@ -173,7 +173,7 @@ nav {
   padding-bottom: 44px;
 }
 .services__item:nth-last-child(1) {
-  padding-bottom: 138px;
+  padding-bottom: 135px;
 }
 .services-h3 {
   padding-top: 13px;
@@ -182,7 +182,7 @@ nav {
   text-transform: none;
 }
 .services__img {
-  margin-bottom: 185px;
+  margin-bottom: 187px;
   height: 717px;
   background-image: url(services_.png);
   background-repeat: no-repeat;
@@ -198,7 +198,7 @@ nav {
   text-transform: none;
 }
 .contacts {
-  margin-bottom: 129px;
+  margin-bottom: 128px;
 }
 .contacts__title-wrapper {
   position: relative;
