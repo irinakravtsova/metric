@@ -241,9 +241,10 @@ footer {
   background-color: #121212;
 }
 .footer__menu {
-  text-align: center;
+  /* text-align: center; */
   padding-top: 60px;
   padding-bottom: 87px;
+  padding-left: 346px;
 }
 .footer__menu-box {  
   box-sizing: border-box; 
