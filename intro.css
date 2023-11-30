@@ -1,0 +1,123 @@
+.intro {
+  margin-bottom: 150px;
+  padding-top: 70px;
+}
+.intro__title {
+  margin-bottom: 30px;
+  width: 956px;
+}
+.intro__interior-image {
+  margin-bottom: 150px;
+   position: relative;
+  width: 100%;
+  height: 500px;
+  background-image: url(interior.png);
+  background-repeat: no-repeat;
+}
+.intro__interior-text {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  width: 430px;
+  font-size: 20px;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  color: #fff;
+}
+
+.intro__about-text {
+  padding-top: 30px;
+  width: 1048px;
+  padding-bottom: 30px;
+   font-size: 45px;
+  line-height: normal;
+  letter-spacing: -1.35px;
+
+}
+.intro__about-btn-text{
+  display: inline-block;
+  padding: 20px 40px;
+  font-size: 20px;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  color: #fff;
+  background: #ad1818;
+  text-decoration: none;
+  border-radius: 5px;
+}
+@media (max-width: 1199px) {
+
+  .intro {
+    margin-bottom: 120px;
+  }
+  .intro__title {
+    width: 802px;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: -1.5px;
+  }
+  .intro__interior-image {
+    margin-bottom: 120px;
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  .intro__interior-text {
+    bottom: 26px;
+  }
+
+  .intro__about-text {
+    width: 690px;
+    font-size: 35px;
+    line-height: 48px;
+    letter-spacing: -1.05px;  
+  }
+
+
+}
+@media (max-width: 767px) {
+
+  .intro {
+    margin-bottom: 80px;
+  }
+  .intro__title {
+    margin-bottom: 25px;
+    width: 337px;
+    font-size: 30px;
+    line-height: 32px;
+    letter-spacing: -0.9px;
+  }
+  .intro__interior-image {
+    margin-bottom: 80px;
+   height: 304px;
+
+  }
+  .intro__interior-text {
+    left: 15px;
+    bottom: 15px;
+    width: 312px;
+    font-size: 16px;
+    letter-spacing: -0.48px;
+  }
+
+.title-tag {
+  font-size: 14px;
+  letter-spacing: -0.42px;
+}
+.about {
+  margin-bottom: 80px;
+}
+.intro__about-text {
+  padding-top: 20px;
+  width: 340px;
+     font-size: 22px;
+  line-height: normal;
+  letter-spacing: -0.66px;  
+}
+ 
+  .intro__about-btn-text {
+    padding: 14.5px 27px 14.5px 27px;
+   font-size: 16px;
+    letter-spacing: -0.48px;   
+ }
+}

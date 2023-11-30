@@ -1,0 +1,16 @@
+.gallery__image {
+  margin-bottom: 187px;
+  height: 717px;
+  background-image: url(services_.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.gallery__text {
+  padding-top: 575px;
+  padding-left: 2px;
+  width: 443px;
+  padding-bottom: 0;
+  color: #fff;
+  text-transform: none;
+}

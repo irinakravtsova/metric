@@ -1,0 +1,31 @@
+.section__nav {
+  padding-top: 32px; 
+}
+
+.logo-link {
+  display: inline-block;
+  margin-right: 554px;
+
+}
+.logo {
+  display: block;
+  width: 128px;
+  height: 22px;
+  padding-top: 2px;
+  padding-left: 2px;
+}
+nav {
+  display: inline-block;
+  vertical-align: top;
+}
+.menu-link {
+  margin-right: 57px;
+  text-decoration: none;
+}
+.menu-link:last-child {
+  margin-right: 0;
+}
+.menu-link:hover {
+  opacity: 0.5;
+  border-bottom: 2px solid #121212;
+}

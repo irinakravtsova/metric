@@ -1,0 +1,19 @@
+.services {
+  padding-top: 151px;
+  background: #121212;
+}
+.services__items {
+  padding-top: 34px;
+}
+.services__item {
+  padding-bottom: 44px;
+}
+.services__item:nth-last-child(1) {
+  padding-bottom: 135px;
+}
+.services-text {
+  padding-top: 13px;
+  padding-left: 4px;
+  color: #fff;
+  text-transform: none;
+}
