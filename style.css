@@ -1,9 +1,9 @@
-@import "/header.css";
-@import "/intro.css";
-@import "/projects.css";
-@import "/services.css";
-@import "/contacts.css";
-@import "/footer.css";
+@import "header.css";
+@import "intro.css";
+@import "projects.css";
+@import "services.css";
+@import "contacts.css";
+@import "footer.css";
 
 html {
   scroll-behavior: smooth;
