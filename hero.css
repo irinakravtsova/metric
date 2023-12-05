@@ -28,7 +28,7 @@
     padding-bottom: 120px;
   }
   .hero__title {
-    width: 802px;
+    width: 100%;
     font-size: 50px;
     line-height: 60px;
     letter-spacing: -1.5px;
