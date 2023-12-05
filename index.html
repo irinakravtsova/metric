@@ -15,8 +15,6 @@
     <link rel="stylesheet" href="style.css" />
 
     <title>Метрика</title>
-
-
   </head>
   <body>
     <!-- <header>
@@ -36,8 +34,10 @@
     </header> -->
     <main>
       <section id="aboutus" class="intro">
-        <div class="container">      
-          <h1 class="intro__title" >Современные и стильные интерьеры для комфортной жизни</h1>
+        <div class="container">
+          <h1 class="intro__title">
+            Современные и стильные интерьеры для комфортной жизни
+          </h1>
           <div class="intro__interior-image">
             <p class="intro__interior-text">
               Мы - команда квалифицированных дизайнеров и архитекторов,
@@ -50,28 +50,32 @@
               Студия основана в 2011 году. Полностью отдаемся проектированию и
               реализации интерьеров. К нам обращаются за уютом, индивидуальными
               решениями и практичностью. Находим конструктивные решения для
-              каждого интерьера, вплоть до каждой детали — нацелены на результат.
+              каждого интерьера, вплоть до каждой детали — нацелены на
+              результат.
             </p>
             <div class="intro__about-btn">
-              <a class="intro__about-btn-text" href="#services">Посмотреть услуги</a>
+              <a class="intro__about-btn-text" href="#services"
+                >Посмотреть услуги</a
+              >
             </div>
           </div>
-        </div>     
-      </section>      
+        </div>
+      </section>
 
       <section id="projects" class="projects">
         <div class="container">
           <h2>проекты</h2>
           <ul class="projects__wrapper">
             <li class="projects__item">
-              
               <picture>
                 <source
-                media="(max-width: 500px)"
-                srcset="project_1_mobile.png"/>
+                  media="(max-width: 500px)"
+                  srcset="project_1_mobile.png"
+                />
                 <source
-                media="(max-width: 1199px)"
-                srcset="project_1_tablet.png"/>
+                  media="(max-width: 1199px)"
+                  srcset="project_1_tablet.png"
+                />
                 <img
                   class="projects__image"
                   src="project_1.jpg"
@@ -84,70 +88,162 @@
             <li class="projects__item">
               <picture>
                 <source
-                media="(max-width: 500px)"
-                srcset="project_2_mobile.png"/>
+                  media="(max-width: 500px)"
+                  srcset="project_2_mobile.png"
+                />
                 <source
-                media="(max-width: 1199px)"
-                srcset="project_2_tablet.png"/>
+                  media="(max-width: 1199px)"
+                  srcset="project_2_tablet.png"
+                />
                 <img
                   class="projects__image"
                   src="project_2.png"
                   alt="жк правобережный"
                 />
               </picture>
-              <h3 class="project-subtitle">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
+              <h3 class="project-subtitle">
+                ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023
+              </h3>
               <a class="projects__link" href="/">Подробнее →</a>
             </li>
             <li class="projects__item">
               <picture>
                 <source
-                media="(max-width: 500px)"
-                srcset="project_3_mobile.png"/>
+                  media="(max-width: 500px)"
+                  srcset="project_3_mobile.png"
+                />
                 <source
-                media="(max-width: 1199px)"
-                srcset="project_3_tablet.png"/>
+                  media="(max-width: 1199px)"
+                  srcset="project_3_tablet.png"
+                />
                 <img
                   class="projects__image"
                   src="project_3.png"
                   alt="жк правобережный"
                 />
-              </picture> 
-              <h3 class="project-subtitle">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
+              </picture>
+              <h3 class="project-subtitle">
+                ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022
+              </h3>
               <a class="projects__link" href="/">Подробнее →</a>
             </li>
           </ul>
-          <a class="projects__btn" href="/">Смотреть все проекты</a>
+          <a class="big__btn project-btn" href="/">Смотреть все проекты</a>
         </div>
       </section>
-      <section id="services" class="services"> -->
-           <!-- <div class="container">
+
+      <section id="services" class="services">
+        <div class="container">
+          <div class="services__inner">
             <h2 class="white">Услуги</h2>
-            <ul class="services__items">
+            <ul class="services__item-wrapper">
               <li class="services__item">
-                <img src="plan.png" alt="чертеж" />
-                <h3 class="services-text">
-                  Планировочное решение — от 2500₽/м²
-                </h3>
+                <div class="services__item-image plan">
+                  <div class="price-wrapper">
+                    <div class="price">
+                      <h4>от 2500₽/м²</h4>
+                    </div>
+                  </div>
+                </div>
+                <h3 class="services-text">Планировочное решение</h3>
               </li>
               <li class="services__item">
-                <img src="design.png" alt="палитра цветов" />
-                <h3 class="services-text">Дизайн-проект — от 3000₽/м²</h3>
+                <div class="services__item-image design">
+                  <div class="price-wrapper">
+                    <div class="price">
+                      <h4>от 3000₽/м²</h4>
+                    </div>
+                  </div>
+                </div>
+                <h3 class="services-text">Дизайн-проект</h3>
               </li>
               <li class="services__item">
-                <img src="supervision.png" alt="супервайзер" />
-                <h3 class="services-text">
-                  Авторский надзор — от 30 000₽ в месяц
-                </h3>
+                <div class="services__item-image supervision">
+                  <div class="price-wrapper">
+                    <div class="price">
+                      <h4>от 30 000₽/мес</h4>
+                    </div>
+                  </div>
+                </div>
+                <h3 class="services-text">Авторский надзор</h3>
               </li>
               <li class="services__item">
-                <img src="complect.png" alt="склад" />
-                <h3 class="services-text">
-                  Комплектация — 5% от стоимости спецификации
-                </h3>
+                <div class="services__item-image equipment">
+                  <div class="price-wrapper">
+                    <div class="price">
+                      <h4>5% от стоимости</h4>
+                    </div>
+                  </div>
+                </div>
+                <h3 class="services-text">Комплектация</h3>
               </li>
             </ul>
-          
-        </div>        
+            <a class="big__btn services-btn" href="/">Заказать услугу</a>
+          </div>
+        </div>
+  
+      </section>
+
+      <section class="reviews">
+        <div class="container">
+          <div class="reviews__inner">
+            <h2>Отзывы</h2>
+            <div class="row">
+              <div class="col">
+                <div class="content">
+                  <h4 class="review-title">Ксения, проект 65 кв.м.</h4>
+                  <p class="review-text">
+                    Хочу искренне поблагодарить Вас за работу, проделанную на
+                    высоком уровне! Нам с мужем было очень приятно с Вами
+                    работать! Спасибо за Ваше умение правильно слышать пожелания
+                    своих клиентов и выполнять работу, которая превосходит все
+                    ожидания! Мы даже не надеялись, что на 34 кв.м. кто-то
+                    сможет нам грамотно разместить все, что мы хотим и даже
+                    больше! <br />
+                    <br />Вам удалось это просто превосходно! Нам лишь осталось
+                    воплотить красоту, которую Вы нам создали в жизнь и
+                    поделиться с Вами результатом!
+                  </p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="content">
+                  <h4 class="review-title">Регина, проект 89 кв.м.</h4>
+                  <p class="review-text">
+                    Спасибо большое за такой классный проект! Все стильно,
+                    круто, продумано! Очень приятно было с вами работать!
+                    Спасибо, что терпели наши «хочу это, хочу то» в поисках
+                    идеального для нас ремонта. Здорово, что мы нашли такого
+                    основательного, ответственного и внимательного к деталям
+                    дизайнера! <br />
+                    <br />Хочется скорее реализовать проект и наслаждаться
+                    современной, функциональной и красивой квартирой! Будем
+                    рекомендовать Вас всем друзьям и знакомым!
+                  </p>
+                </div>
+              </div>
+              <div class="col col_big">
+                <div class="content">
+                  <h4 class="review-title">Яна, проект 120 кв.м.</h4>
+                  <p class="review-text">
+                    Хотелось бы сказать большое спасибо за проделанную работу! В
+                    задачу Марины входила разработка дизайн-проекта в
+                    минимальные сроки, и мне, конечно, не хотелось при этом
+                    потерять качество выполнения работы. Но волнения были
+                    напрасны: все вопросы решались оперативно, всегда
+                    предлагалось несколько вариантов решения, а также
+                    предоставлялись комментарии, какой способ решения будет
+                    более подходящим. <br /><br />
+                    В итоге проект был сдан в оговоренный срок, и мне просто не
+                    терпится приступить к его реализации! Проект получился очень
+                    стильным и современным! Буду рекомендовать Вас тем, кому еще
+                    предстоит это непростое дело - ремонт!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <!-- <section class "gallery">
         <div class="gallery__image">
