@@ -8,7 +8,7 @@
 }
 .intro__interior-image {
   margin-bottom: 150px;
-   position: relative;
+  position: relative;
   width: 100%;
   height: 500px;
   background-image: url(interior.png);
@@ -29,12 +29,11 @@
   padding-top: 30px;
   width: 1048px;
   padding-bottom: 30px;
-   font-size: 45px;
+  font-size: 45px;
   line-height: 61px;
   letter-spacing: -1.35px;
-
 }
-.intro__about-btn-text{
+.intro__about-btn-text {
   display: inline-block;
   padding: 20px 40px;
   font-size: 20px;
@@ -46,7 +45,6 @@
   border-radius: 5px;
 }
 @media (max-width: 1199px) {
-
   .intro {
     margin-bottom: 120px;
   }
@@ -71,27 +69,23 @@
     padding-top: 30px;
     font-size: 35px;
     line-height: 48px;
-    letter-spacing: -1.05px;  
+    letter-spacing: -1.05px;
   }
-
-
 }
 @media (max-width: 767px) {
-
   .intro {
     margin-bottom: 80px;
   }
   .intro__title {
     margin-bottom: 25px;
-    width: 337px;
+    width: 100%;
     font-size: 30px;
     line-height: 32px;
     letter-spacing: -0.9px;
   }
   .intro__interior-image {
     margin-bottom: 80px;
-   height: 304px;
-
+    height: 304px;
   }
   .intro__interior-text {
     left: 15px;
@@ -101,24 +95,24 @@
     letter-spacing: -0.48px;
   }
 
-.title-tag {
-  font-size: 14px;
-  letter-spacing: -0.42px;
-}
-.about {
-  margin-bottom: 80px;
-}
-.intro__about-text {
-  padding-top: 20px;
-  width: 340px;
-     font-size: 22px;
-  line-height: 30px;
-  letter-spacing: -0.66px;  
-}
- 
+  .title-tag {
+    font-size: 14px;
+    letter-spacing: -0.42px;
+  }
+  .about {
+    margin-bottom: 80px;
+  }
+  .intro__about-text {
+    padding-top: 20px;
+    width: 340px;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.66px;
+  }
+
   .intro__about-btn-text {
     padding: 14.5px 27px 14.5px 27px;
-   font-size: 16px;
-    letter-spacing: -0.48px;   
- }
+    font-size: 16px;
+    letter-spacing: -0.48px;
+  }
 }
