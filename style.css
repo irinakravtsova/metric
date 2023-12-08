@@ -4,6 +4,7 @@
 @import "projects.css";
 @import "services.css";
 @import "reviews.css";
+@import "gallery.css";
 @import "contacts.css";
 @import "footer.css";
 
@@ -16,9 +17,7 @@ body {
   font-style: normal;
   background-color: #fff;
 }
-main {
-  /* width: 1440px;  */
-}
+
 .container {
   max-width: 1150px;
   margin: 0 auto;
@@ -37,7 +36,7 @@ h1 {
 }
 h2 {
   font-size: 18px;
-  line-height: normal;
+  line-height: 25px;
   letter-spacing: -0.54px;
   text-transform: uppercase;
  }
@@ -89,6 +88,7 @@ h3  {
     padding-right: 15px;
     background-color: blueviolet;
   }
+}
   h1 {
     font-size: 30px;
    line-height: 32px; 
@@ -97,6 +97,7 @@ h3  {
  h2 {
   font-size: 14px;
   letter-spacing: -0.42px;
+  line-height: 19px;
  }
  .big__btn {
   padding-top: 33px;

@@ -1,40 +1,125 @@
 .contacts {
-  margin-bottom: 128px;
+  margin-bottom: 150px;
 }
-.contacts__title-wrapper {
+.contacts__inner {
+  max-width: 989px;
+}
+.contacts-title {
+  
+}
+/* .row-contacts {
+   display: flex;
+  justify-content: space-between;
+    position: relative;
+  }
+.col-contact {
+  width: calc(50% - 52px); 
+} */
+.contacts-wrapper {
+  padding-top: 74px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -1.8px;
+
+ 
+}
+/* .content {
+ width: 100%;
+ font-size: 60px;
+
+  line-height: 60px;
+  letter-spacing: -1.8px;
+} */
+.contact {
   position: relative;
+  height: 70px;
+  
 }
-.contacts__title-wrapper::before {
+.contact::before {
   content: "";
   display: block;
   position: absolute;
-  top: -38px;
-  left: -5px;
+  top: -50px;
   width: 24px;
   height: 24px;
-  background-image: url(icon_phone.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50%;
+   background-size: cover;
+   background-image: url(icon_phone.png);
 }
-.tel {
-  padding-bottom: 31px;
+
+.contact-mailto::before { 
+  background-image: url(mail-outline.png);
+
+}
+.contact-mailto {
+  align-content: flex-start;
+}
+
+.phone {
   text-decoration: none;
   color: #121212;
-  letter-spacing: -2;
-}
+ }
 .mailto {
+
   opacity: 0.5;
   text-decoration: none;
   color: #121212;
   border-bottom: 2px solid #121212;
 }
-.contacts-title {
-  padding-bottom: 32px;
+
+@media (max-width: 1199px) {
+  .contacts {
+   margin-bottom: 80px;
+  }
+  .contacts-wrapper {
+    padding-top: 74px;
+       font-size: 45px;
+    line-height: 60px;
+    letter-spacing: -1.35px;
+  }
+  /* .col-contact {
+    width: calc(50% - 57px);
+   }
+   .content {
+    font-size: 45px;
+   line-height: 60px;
+   letter-spacing: -1.35px;
+  } */
 }
-.contacts__contact {
-  padding-bottom: 31px;
-  font-size: 60px;
-  line-height: 60px;
-  letter-spacing: -1.8px;
+
+@media (max-width: 767px) {
+  .contacts {
+    margin-bottom: 80px;
+  }
+  .contacts-wrapper {
+    padding-top: 58px;
+    flex-direction: column;
+    row-gap: 58px;
+       font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -1.05px;
+  }
+  .contact-phone::before {
+    width: 18px;
+    height: 18px;
+    top: -26px;
+  }
+  
+  /* .row-contacts { {
+       flex-direction: column;
+       row-gap: 58px;
+  }
+  .col-contact {
+      width: 100%;
+  } */
+  .content {
+    font-size: 35px;
+   line-height: 47px;
+   letter-spacing: -1.05px;
+   }
 }
+
+
+
+

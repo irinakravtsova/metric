@@ -1,16 +1,141 @@
-.gallery__image {
-  margin-bottom: 187px;
+
+
+.gallery {
+  position: relative;
+  padding-bottom: 150px;
+}
+.gallery__title-wrapper {
+  position: absolute;
+  top: 60px;
+  width: 100%;
+   z-index: 100;
+}
+.gallery__title {  
+  font-size: 22px;
+  letter-spacing: -0.66px;
+  line-height: 30px;
+  color: white;
+}
+.galley__slides {
   height: 717px;
-  background-image: url(services_.png);
-  background-repeat: no-repeat;
+  position: relative;
+}
+.gallery__slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
+.gallery__slide_active {
+  opacity: 1;
+}
+.gallery__image {
+  height: 100%;
+  position: relative;
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: 50% 50%;
 }
-.gallery__text {
-  padding-top: 575px;
-  padding-left: 2px;
+.image-forest {
+  background-image: url(forest.png);
+}
+.image-pharos {
+  background-image: url(pharos.png);
+}
+.image-kitchen {
+  background-image: url(kitchen.png);
+}
+.image-scandinavia {
+  background-image: url(Scandinavia.png);
+} 
+
+.gallery__image-text {
+  position: absolute;
+  bottom: 60px;
   width: 443px;
-  padding-bottom: 0;
-  color: #fff;
+  color: white;
   text-transform: none;
 }
+.gallery__controls-wrapper {
+  position: absolute;
+  bottom: 162px;
+  width: 100%;
+}
+.gallery__controls {
+    display: flex;
+  
+}
+.gallery__control-prev {
+  
+}
+
+@media (max-width: 1190px) {
+  .container {
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .gallery {
+    padding-bottom: 120px;
+  }
+  .gallery__title-wrapper {
+    top: 80px;
+  }
+  .gallery__title {  
+    font-size: 20px;
+    letter-spacing: -0.6px;
+    line-height: 27px;
+     }
+     .galley__slides {
+      height: 536px;
+    }
+  .gallery__image-text {
+       bottom: 80px;
+    width: 377px;
+       font-size: 25px;
+    letter-spacing: -0.75px;
+    line-height: 34px;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+  /* .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  } */
+  .gallery {
+    padding-bottom: 80px;
+  }
+  .gallery__title-wrapper {
+    top: 61px;
+  }
+  .gallery__title {  
+    font-size: 14px;
+    letter-spacing: -0.42px;
+    line-height: 19px;
+    }
+  .galley__slides {
+    height: 408px;
+  }
+  .gallery__image-text {
+       bottom: 80px;
+    width: 287px;
+       font-size: 19px;
+    letter-spacing: -0.57px;
+    line-height: 26px;
+    }
+  .gallery__controls-wrapper {
+       bottom: 50%;
+     }
+  .gallery__controls {
+    justify-content: space-between;
+}
+}
+
+
+
+
