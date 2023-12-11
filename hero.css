@@ -24,9 +24,9 @@ margin-bottom: 150px;
 }
 
 @media (max-width: 1199px) {
-  .hero__inner {
-    padding-bottom: 120px;
-  }
+  .hero {
+    margin-bottom: 120px;
+    }
   .hero__title {
     width: 100%;
     font-size: 50px;
@@ -43,9 +43,9 @@ margin-bottom: 150px;
   }
 }
 @media (max-width: 767px) {
-  .hero__inner {   
-    padding-bottom: 80px;
-  }
+  .hero {
+    margin-bottom: 80px;
+    }
   .hero__title {
     margin-bottom: 25px;
     width: 100%;

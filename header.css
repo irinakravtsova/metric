@@ -14,7 +14,7 @@
   padding-top: 2px;
   padding-left: 2px;
 }
-nav {
+.nav {
   display: inline-block;
   vertical-align: top;
 }
@@ -28,4 +28,4 @@ nav {
 .menu-link:hover {
   opacity: 0.5;
   border-bottom: 2px solid #121212;
-}
+}.

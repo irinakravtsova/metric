@@ -21,8 +21,8 @@
   border-radius: 5px;
 }
 @media (max-width: 1199px) {
-  .about__inner {
-    padding-bottom: 120px;
+  .about {
+    margin-bottom: 120px;
   }
    .about__text {
     width: 690px;
@@ -33,8 +33,8 @@
   }
 }
 @media (max-width: 767px) {
-  .about__inner {
-    padding-bottom: 80px;
+  .about {
+    margin-bottom: 80px;
   }
   .about__text {
    width: 100%;
