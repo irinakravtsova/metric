@@ -1,5 +1,5 @@
 .hero {
-margin-bottom: 150px;
+  margin-bottom: 150px;
 }
 .hero__title {
   margin-bottom: 30px;
@@ -26,7 +26,7 @@ margin-bottom: 150px;
 @media (max-width: 1199px) {
   .hero {
     margin-bottom: 120px;
-    }
+  }
   .hero__title {
     width: 100%;
     font-size: 50px;
@@ -45,26 +45,22 @@ margin-bottom: 150px;
 @media (max-width: 767px) {
   .hero {
     margin-bottom: 80px;
-    }
+  }
   .hero__title {
-    margin-bottom: 25px;
+    margin-bottom: 21px;
     width: 100%;
     font-size: 30px;
     line-height: 32px;
     letter-spacing: -0.9px;
   }
   .hero__box {
-      height: 304px;
+    height: 304px;
   }
   .hero__text {
     left: 15px;
-    bottom: 15px;
+    bottom: 17px;
     max-width: 312px;
     font-size: 16px;
     letter-spacing: -0.48px;
   }
 }
-
-
-
-

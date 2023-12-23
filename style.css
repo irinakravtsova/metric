@@ -21,7 +21,6 @@ body {
 .container {
   max-width: 1150px;
   margin: 0 auto;
-  
 }
 h1,
 h2,
@@ -30,18 +29,18 @@ h3 {
 }
 
 h1 {
-   font-size: 60px;
-  line-height: 60px; 
-  letter-spacing: -1.8px; 
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -1.8px;
 }
 h2 {
   font-size: 18px;
   line-height: 25px;
   letter-spacing: -0.54px;
   text-transform: uppercase;
- }
+}
 
-h3  {
+h3 {
   font-size: 30px;
   letter-spacing: -0.9px;
   line-height: normal;
@@ -50,18 +49,17 @@ h3  {
 .big__btn {
   width: 100%;
   display: block;
-  padding-top: 56px;
-  padding-bottom: 56px;
+  padding-top: 55px;
+  padding-bottom: 55px;
   font-size: 30px;
   letter-spacing: -0.9px;
   text-align: center;
- line-height: 42px;
+  line-height: 42px;
   border: 1px solid #ad1818;
   border-radius: 5px;
   text-decoration: none;
   text-transform: none;
 }
-
 
 @media (max-width: 1199px) {
   .container {
@@ -71,17 +69,14 @@ h3  {
   }
   h1 {
     font-size: 50px;
-   line-height: 60px; 
-   letter-spacing: -1.5px; 
- }
- .big__btn {
-  padding-top: 56px;
-  padding-bottom: 56px;
-  line-height: 41px;
-}
-  
-
-
+    line-height: 60px;
+    letter-spacing: -1.5px;
+  }
+  .big__btn {
+    padding-top: 56px;
+    padding-bottom: 56px;
+    line-height: 41px;
+  }
 }
 @media (max-width: 767px) {
   .container {
@@ -91,23 +86,20 @@ h3  {
   }
   h1 {
     font-size: 30px;
-   line-height: 32px; 
-   letter-spacing: -0.9px; 
- }
- h2 {
-  font-size: 14px;
-  letter-spacing: -0.42px;
-  line-height: 19px;
- }
+    line-height: 32px;
+    letter-spacing: -0.9px;
+  }
+  h2 {
+    font-size: 14px;
+    letter-spacing: -0.42px;
+    line-height: 19px;
+  }
 
- .big__btn {
-  padding-top: 33px;
- padding-bottom: 33px;
- font-size: 22px;
- letter-spacing: -0.66px;
- line-height: 30px; 
+  .big__btn {
+    padding-top: 33px;
+    padding-bottom: 33px;
+    font-size: 22px;
+    letter-spacing: -0.66px;
+    line-height: 30px;
+  }
 }
-}
-
-
-

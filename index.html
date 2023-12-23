@@ -18,22 +18,60 @@
 
     <title>Метрика</title>
   </head>
-  <body>
-    <!-- <header>
-      <section class="section__nav">
-        <div class="container">
-          <a class="logo-link" href="/">
-            <img class="logo" src="logo_mетрика.png" alt="logo_mетрика">
-          </a> 
-          <nav>             
-              <a class="title-tag menu-link active" href="#about">О нас</a>
-              <a class="title-tag menu-link " href="#projects">Проекты</a>
-              <a class="title-tag menu-link " href="#services">Услуги</a>
-              <a class="title-tag menu-link" href="#contacts">Контакты</a>
-          </nav>           
-         </div>
-      </section>
-    </header> -->
+  <body >
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="logo">
+            <a class="logo-link" href="/">
+              <img class="logo-img" src="logo_mетрика.png" 
+               alt="logo_mетрика">
+            </a> 
+          </div>
+          
+          <nav class="header__nav">             
+              <a class="menu-link active" href="#about">О нас</a>
+              <a class="menu-link " href="#projects">Проекты</a>
+              <a class="menu-link " href="#services">Услуги</a>
+              <a class="menu-link" href="#contacts">Контакты</a>
+          </nav>
+          <div class="js-burger-btn burger-btn ">
+            <span class="burger_line long"></span>
+            <span class="burger_line"></span>
+
+            </div>
+        </div>
+       </div>
+    </header>
+    <div class="js-burger burger">
+     
+      <div class="burger__wrapper">
+       
+        <div class="burger__left">
+
+        </div>
+        <div class="burger__right">
+          
+          <div class="js-burger__content burger__content">
+            <!-- <div class="burger-btn_open"></div> -->
+            <a class="logo-link" href="/">
+              <img class="logo-burger" src="logo_mетрика.png" alt="logo_mетрика">
+            </a> 
+            <nav class="burger-nav">
+              <a class="burger-nav__link" href="">О нас</a>
+              <a class="burger-nav__link" href="">Проекты</a>
+              <a class="burger-nav__link" href="">Услуги</a>
+              <a class="burger-nav__link" href="">Контакты</a>
+             </nav>
+             <div class="burger__contact">
+              <p class="burger__contact-title">для связи:</p>
+              <a class="burger__phone" href="tel:+79358954535">+7 935 895-45-35</a>
+              <a class="burger__email" href="mailto:hello@mail.com">hello@mail.com</a>
+               </div>
+          </div>
+        </div> 
+      </div>
+    </div>
     <main>
       <section class="hero">
         <div class="container">
@@ -185,10 +223,35 @@
                 <h3 class="services-text">Комплектация</h3>
               </li>
             </ul>
-            <a class="big__btn services-btn" href="/">Заказать услугу</a>
+            <button class="js-btn big__btn services-btn" href="">Заказать услугу</button>
+
+            <div class="popup js-popup">
+              <div class="js-popup__content popup__content">
+                <div class="js-popup__close-btn popup__close-btn"></div>
+                <div class="popup__inner">
+                  <p class="popup__title">Заказать услугу</p>
+                  <p class="popup__sutitle">Заполните форму, мы свяжемся с вами в течение суток
+                  </p>
+                  <input 
+                    class="input"
+                    type="text"
+                    placeholder="Имя">
+              
+                  <input 
+                    class="input"
+                    type="text"
+                    placeholder="Электронная почта">
+              
+                  <input 
+                    class="input"
+                    type="text"
+                    placeholder="Номер телефона">
+                  <p class="popup__btn-text" href="/">Отправить</p>
+                </div>
+               </div>
+            </div>
           </div>
         </div>
-  
       </section>
 
       <section class="reviews">
@@ -329,5 +392,7 @@
       </div>   
     </footer>
     <script src="gallery.js"></script>
+    <script src="popup.js"></script>
+    <script src="burger.js"></script>
   </body>
 </html>
