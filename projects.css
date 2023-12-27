@@ -1,5 +1,5 @@
 .projects {
-  margin-bottom: 147px;
+  margin-bottom: 146px;
 }
 .projects__wrapper {
   padding-top: 29px;
@@ -33,7 +33,7 @@
 
 @media (max-width: 1199px) {
   .projects {
-    margin-bottom: 100px;
+    margin-bottom: 98px;
   }
   .projects__item {
     margin-bottom: 80px;
@@ -55,7 +55,7 @@
 }
 @media (max-width: 767px) {
   .projects {
-    margin-bottom: 82px;
+    margin-bottom: 80px;
   }
   .projects__wrapper {
     padding-top: 20px;
@@ -85,8 +85,8 @@
     line-height: 22px;
   }
   .project-btn {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 35px;
+    padding-bottom: 33px;
     font-size: 22px;
     letter-spacing: -0.66px;
     line-height: 30px;

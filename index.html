@@ -29,17 +29,28 @@
             </a> 
           </div>
           
-          <nav class="header__nav">             
-              <a class="menu-link active" href="#about">О нас</a>
-              <a class="menu-link " href="#projects">Проекты</a>
-              <a class="menu-link " href="#services">Услуги</a>
-              <a class="menu-link" href="#contacts">Контакты</a>
+          <nav class="header__nav"> 
+            <ul class="nav__list">
+              <li class="menu-item" >
+                <a class="menu-link active" href="#about">О нас</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-link" href="#projects">Проекты</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-link" href="#services">Услуги</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-link" href="#contacts">Контакты</a>
+              </li>
+            </ul>            
+   
           </nav>
-          <div class="js-burger-btn burger-btn ">
+          <button class="js-burger-btn burger-btn ">
             <span class="burger_line long"></span>
             <span class="burger_line"></span>
 
-            </div>
+            </button>
         </div>
        </div>
     </header>
@@ -48,20 +59,37 @@
         <div class="burger__left">
         </div>
         <div class="burger__right">
-           <div class="js-burger__content burger__content">
+           <div class=" burger__content">
             <a class="logo-link" href="/">
               <img class="logo-burger" src="logo_mетрика.png" alt="logo_mетрика">
             </a> 
             <nav class="burger-nav">
-              <a class="burger-nav__link" href="#about">О нас</a>
-              <a class="burger-nav__link" href="#projects">Проекты</a>
-              <a class="burger-nav__link" href="#services">Услуги</a>
-              <a class="burger-nav__link" href="#contacts">Контакты</a>
+              <ul>
+               <li>
+                <a class="burger-nav__link" href="#about">О нас</a>
+               </li>  
+               <li>
+                <a class="burger-nav__link" href="#projects">Проекты</a>
+               </li> 
+               <li>
+                <a class="burger-nav__link" href="#services">Услуги</a>
+               </li> 
+               <li>
+                <a class="burger-nav__link" href="#contacts">Контакты</a>
+               </li>           
+              </ul>
              </nav>
-             <div class="burger__contact">
+             <div class="js-burger__content burger__contact">
               <p class="burger__contact-title">для связи:</p>
-              <a class="burger__phone" href="tel:+79358954535">+7 935 895-45-35</a>
-              <a class="burger__email" href="mailto:hello@mail.com">hello@mail.com</a>
+              <ul>
+                <li>
+                  <a class="burger__phone" href="tel:+79358954535">+7 935 895-45-35</a>
+                </li>
+                <li>
+                  <a class="burger__tg" href="https://t.me/IrinaKavtsova">@IrinaKavtsova</a>
+                </li>
+              </ul>
+       
                </div>
           </div>
         </div> 
@@ -220,28 +248,36 @@
             </ul>
             <button class="js-btn big__btn services-btn" href="">Заказать услугу</button>
 
-            <div class="popup js-popup">
+            <div class="js-popup popup ">
               <div class="js-popup__content popup__content">
-                <div class="js-popup__close-btn popup__close-btn"></div>
+                <button class="js-popup__close-btn popup__close-btn"></button>
                 <div class="popup__inner">
                   <p class="popup__title">Заказать услугу</p>
                   <p class="popup__sutitle">Заполните форму, мы свяжемся с вами в течение суток
                   </p>
-                  <input 
-                    class="input"
+                  <form class="order__form" >
+                    <input 
+                    class="input order__input"
                     type="text"
+                    name="name"
                     placeholder="Имя">
               
-                  <input 
-                    class="input"
-                    type="text"
+                    <input  
+                    class="input order__input"
+                    type="email"
+                    name="email"
                     placeholder="Электронная почта">
               
-                  <input 
-                    class="input"
-                    type="text"
+                    <input 
+                    class="input order__input"
+                    type="tel"
+                    name="phone"
                     placeholder="Номер телефона">
-                    <p class="popup__btn-text" href="/">Отправить</p>
+                  </form>
+                  
+                   
+                    
+                  <button class="popup__btn-form" href="/">Отправить</button>
                 </div>
                
                </div>
@@ -332,7 +368,7 @@
             <div class="gallery__slide">
               <img class="gallery__image" src="pharos.png" alt="ЖК Маяк">
               <div class="container">
-                <h3 class="gallery__image-text">Проект гостиной в ЖК Маяк</h3>
+                <h3 class="gallery__image-text pharos">Проект гостиной в ЖК Маяк</h3>
               </div>
             </div>
             <div class="gallery__slide">

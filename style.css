@@ -17,7 +17,13 @@ body {
   font-style: normal;
   background-color: #fff;
 }
-
+.body_fixed {
+  overflow: hidden;
+}
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
 .container {
   max-width: 1150px;
   margin: 0 auto;
@@ -96,7 +102,7 @@ h3 {
   }
 
   .big__btn {
-    padding-top: 33px;
+    padding-top: 35px;
     padding-bottom: 33px;
     font-size: 22px;
     letter-spacing: -0.66px;

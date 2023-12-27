@@ -82,7 +82,7 @@
     margin-bottom: 64px;
   }
   .contacts__wrapper {
-    padding-top: 44px;
+    padding-top: 47px;
     flex-direction: column;
     row-gap: 58px;
        font-size: 35px;
@@ -94,6 +94,12 @@
     height: 18px;
     top: -26px;
   }
+  .contact__email::before {
+    width: 18px;
+    height: 18px;
+  
+  }
+
   
     .content {
     font-size: 35px;
