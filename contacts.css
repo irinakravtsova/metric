@@ -3,9 +3,7 @@
 }
 .contacts__inner {
   max-width: 989px;
- 
 }
-
 
 .contacts__wrapper {
   padding-top: 66px;
@@ -18,8 +16,7 @@
 .contact__phone,
 .contact__email {
   position: relative;
-    height: 70px;
-  
+  height: 70px;
 }
 .contact__phone::before,
 .contact__email::before {
@@ -28,16 +25,15 @@
   top: -41px;
   left: -5px;
   display: block;
-   width: 24px;
+  width: 24px;
   height: 24px;
-   background-size: cover;
-   background-repeat: no-repeat;
-   
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .contact__phone::before {
   background-image: url(icon_phone.png);
 }
-.contact__email::before { 
+.contact__email::before {
   background-image: url(mail.png);
   opacity: 1;
 }
@@ -47,34 +43,32 @@
   text-decoration: none;
   color: #121212;
   letter-spacing: -0.9px;
-  
- }
+}
 .contact__email {
   display: inline-block;
   opacity: 0.5;
   text-decoration: none;
   color: #121212;
-  border-bottom: 2px solid #121212 ;
+  border-bottom: 2px solid #121212;
 }
 
 @media (max-width: 1199px) {
   .contacts {
-   margin-bottom: 130px;
+    margin-bottom: 130px;
   }
   .contacts__inner {
-    max-width: 777px;   
+    max-width: 777px;
   }
   .contacts__wrapper {
     padding-top: 64px;
-       font-size: 45px;
+    font-size: 45px;
     line-height: 60px;
     letter-spacing: -1.35px;
   }
   .contact__phone,
-.contact__email {
- height: 60px;
-  
-}
+  .contact__email {
+    height: 60px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -85,7 +79,7 @@
     padding-top: 47px;
     flex-direction: column;
     row-gap: 58px;
-       font-size: 35px;
+    font-size: 35px;
     line-height: 46px;
     letter-spacing: -1.05px;
   }
@@ -97,17 +91,11 @@
   .contact__email::before {
     width: 18px;
     height: 18px;
-  
   }
 
-  
-    .content {
+  .content {
     font-size: 35px;
-   line-height: 47px;
-   letter-spacing: -1.05px;
-   }
+    line-height: 47px;
+    letter-spacing: -1.05px;
+  }
 }
-
-
-
-

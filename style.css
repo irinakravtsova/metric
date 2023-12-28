@@ -71,7 +71,7 @@ h3 {
   .container {
     width: 100%;
     padding: 0 15px 0 17px;
-    background-color: aqua;
+    /* background-color: aqua; */
   }
   h1 {
     font-size: 50px;
@@ -88,7 +88,7 @@ h3 {
   .container {
     padding-left: 13px;
     padding-right: 15px;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
   }
   h1 {
     font-size: 30px;
