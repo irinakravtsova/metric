@@ -8,7 +8,7 @@
 .gallery__title {
   position: absolute;
   top: 64px;
-  width: 100%;
+  /* width: 100%; */
   z-index: 100;
   font-size: 22px;
   letter-spacing: -0.66px;
@@ -113,7 +113,7 @@
 
 @media (max-width: 767px) {
   .gallery-section {
-    margin-bottom: 80px;
+    margin-bottom: 84px;
   }
   .gallery__title {
     top: 41px;
@@ -141,7 +141,7 @@
     height: 388px;
   }
   .gallery__image-text {
-    bottom: 62px;
+    bottom: 58px;
     left: 14px;
     width: 270px;
     font-size: 19px;

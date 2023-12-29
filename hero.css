@@ -3,13 +3,14 @@
 }
 .hero__title {
   margin-bottom: 29px;
-  width: 956px;
+  max-width: 956px;
 }
 .hero__box {
   position: relative;
   width: 100%;
   height: 500px;
   background-image: url(interior.png);
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .hero__text {
@@ -28,14 +29,13 @@
     margin-bottom: 120px;
   }
   .hero__title {
-    width: 100%;
+    max-width: 802px;
     font-size: 50px;
     line-height: 60px;
     letter-spacing: -1.5px;
   }
   .hero__box {
     height: 400px;
-    background-size: cover;
     background-position: 50% 50%;
   }
   .hero__text {

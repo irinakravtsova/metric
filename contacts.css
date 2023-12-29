@@ -73,12 +73,12 @@
 
 @media (max-width: 767px) {
   .contacts {
-    margin-bottom: 64px;
+    margin-bottom: 66px;
   }
   .contacts__wrapper {
     padding-top: 47px;
     flex-direction: column;
-    row-gap: 58px;
+    row-gap: 53px;
     font-size: 35px;
     line-height: 46px;
     letter-spacing: -1.05px;
@@ -92,6 +92,14 @@
     width: 18px;
     height: 18px;
   }
+  .contact__email {
+    display: inline-block;
+    opacity: 1;
+    text-decoration: none;
+    color: #121212;
+    border-bottom: none
+  }
+
 
   .content {
     font-size: 35px;
