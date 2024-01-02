@@ -1,11 +1,11 @@
 .projects {
-  margin-bottom: 146px;
+  margin-bottom: 149px;
 }
 .projects__wrapper {
-  padding-top: 29px;
+  margin-top: 29px;
 }
 .projects__item {
-  margin-bottom: 90px;
+  margin-bottom: 92px;
 }
 .project__item-image {
   height: 450px;
@@ -15,22 +15,22 @@
  height: 100%;
 object-fit: cover;
 }
-.project-subtitle {
+.project__title {
   margin-top: 12px;
   margin-bottom: 15px;
   line-height: 42px;
 }
-.projects__link {
+.project__link {
   font-size: 20px;
   line-height: 27px;
   letter-spacing: -0.6px;
   text-decoration: none;
   color: #ad1818;
 }
-.project-btn {
+.project__btn_color {
   color: #ad1818;
 }
-.project-btn:hover {
+.project__btn_color:hover {
   background-color: #ad1818;
   color: #fff;
 }
@@ -52,7 +52,7 @@ object-fit: cover;
     margin-bottom: 100px;
   }
  
-  .project-subtitle {
+  .project__subtitle {
     margin-top: 15px;
     margin-bottom: 10px;
     font-size: 25px;
@@ -79,7 +79,7 @@ object-fit: cover;
   .projects__img {
     margin-bottom: 20px;
   }
-  .project-subtitle {
+  .project__title {
     margin-bottom: 9px;
     font-size: 18px;
     letter-spacing: -0.54px;
@@ -90,7 +90,7 @@ object-fit: cover;
     letter-spacing: -0.48x;
     line-height: 22px;
   }
-  .project-btn {
+  .project__btn_color {
     padding-top: 35px;
     padding-bottom: 33px;
     font-size: 22px;

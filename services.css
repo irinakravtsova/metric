@@ -1,6 +1,6 @@
 
 .services {
-  padding: 151px 0 150px 0;: 150px;
+  padding: 151px 0 148px 0 ;
   background: #121212;
 }
 .services__inner {
@@ -24,6 +24,7 @@
 .services__item-image {
   margin-bottom: 25px;
   width: 100%;
+  height: 388px;
    
   
 }
@@ -134,8 +135,6 @@
   border-radius: 5px;
   cursor: pointer;
 }
-
-
 .order__input {
   margin-bottom: 45px;
   box-sizing: border-box;
@@ -172,8 +171,9 @@ margin-bottom: 31px;
     width: calc(50% - 4px);
   }
   .services__item-image {
-    height: 315px;
     margin-bottom: 17px;
+    height: 315px;
+    
   }
   .services-text {
     font-size: 25px;
@@ -213,8 +213,9 @@ margin-bottom: 31px;
     width: 100%;
   }
   .services__item-image {
-    height: 240px;
     margin-bottom: 10px;
+    height: 240px;
+    
   }
 
   .price {
