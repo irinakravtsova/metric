@@ -1,0 +1,123 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #fff;
+}
+.body_fixed {
+  overflow: hidden;
+}
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
+h1,
+h2,
+h3 {
+  color: #121212;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -1.8px;
+}
+h2 {
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 30px;
+  letter-spacing: -0.9px;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.big__btn {
+  width: 100%;
+  display: block;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  font-size: 30px;
+  letter-spacing: -0.9px;
+  text-align: center;
+  line-height: 42px;
+  border: 1px solid #ad1818;
+  border-radius: 5px;
+  text-decoration: none;
+  text-transform: none;
+}
+.nav__link {
+    display: block;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.4px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .nav__link:hover {
+  opacity: 0.5;
+}
+
+
+
+
+@media (max-width: 1199px) {
+  .container {
+    width: 100%;
+    padding: 0 15px 0 17px;
+    /* background-color: aqua; */
+  }
+  h1 {
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: -1.5px;
+  }
+  .big__btn {
+    padding-top: 56px;
+    padding-bottom: 56px;
+    line-height: 41px;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    padding-left: 13px;
+    padding-right: 15px;
+    /* background-color: blueviolet; */
+  }
+  h1 {
+    font-size: 30px;
+    line-height: 32px;
+    letter-spacing: -0.9px;
+  }
+  h2 {
+    font-size: 14px;
+    letter-spacing: -0.42px;
+    line-height: 19px;
+  }
+
+  .big__btn {
+    padding-top: 35px;
+    padding-bottom: 33px;
+    font-size: 22px;
+    letter-spacing: -0.66px;
+    line-height: 30px;
+  }
+  .nav__link {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.36px;
+  }
+}

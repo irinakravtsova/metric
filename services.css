@@ -3,15 +3,14 @@
   padding: 151px 0 148px 0 ;
   background: #121212;
 }
-.services__inner {
-  
-}
+
 .services__item-wrapper {
+  margin-bottom: 104px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   row-gap: 80px;
-  margin-bottom: 104px;
+ 
 }
 .white {
   margin-bottom: 29px;

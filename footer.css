@@ -15,16 +15,7 @@
 
   gap: 54px;
 }
-.nav__link {
-  display: block;
-  font-size: 18px;
-  line-height: 25px;
-  letter-spacing: -0.4px;
-  color: #fff;
-  text-decoration: none;
-  text-align: center;
-  text-transform: uppercase;
-}
+
 .nav__link:hover,
 .footer-active {
   opacity: 0.5;
