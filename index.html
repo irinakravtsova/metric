@@ -83,7 +83,7 @@
                   <a class="burger__phone" href="tel:+79358954535">+7 935 895-45-35</a>
                 </li>
                 <li>
-                  <a class="burger__tg" href="https://t.me/IrinaKavtsova">@IrinaKavtsova</a>
+                  <a class="burger__tg" href="https://t.me/IrinaKavtsova" target="_blank">@IrinaKavtsova</a>
                 </li>
               </ul>
        
@@ -210,9 +210,9 @@
             <h2 class="white">Услуги</h2>
             <ul class="services__item-wrapper">
               <li class="services__item">
-                <div class="services__item-image">
-                  <img class="services__image" src="чертеж_2.png" alt="plan">
-                    <div class="price">
+                <div class="services__item-box">
+                  <img class="services__item-image" src="чертеж_2.png" alt="plan">
+                    <div class="services__item-price">
                       <p>от 2500₽/м²</p>
                     </div>
                  
@@ -220,34 +220,35 @@
                 <h3 class="services-text">Планировочное решение</h3>
               </li>
               <li class="services__item">
-                <div class="services__item-image ">
-                  <img class="services__image" src="палитра_2.png" alt="палитра">
-                    <div class="price">
+                <div class="services__item-box">
+                  <img class="services__item-image" src="палитра_2.png" alt="палитра">
+                    <div class="services__item-price">
                       <p>от 3000₽/м²</p>
                     </div>
                 </div>
                 <h3 class="services-text">Дизайн-проект</h3>
               </li>
               <li class="services__item">
-                <div class="services__item-image supervision">
-                  <img class="services__image" src="супервайзер_2.png" alt="supervision">
-                    <div class="price">
+                <div class="services__item-box">
+                  <img class="services__item-image" src="супервайзер_2.png" alt="supervision">
+                    <div class="services__item-price">
                       <p>от 30 000₽/мес</p>
                     </div>
                 </div>
                 <h3 class="services-text">Авторский надзор</h3>
               </li>
               <li class="services__item">
-                <div class="services__item-image ">
-                  <img class="services__image" src="склад_2.png" alt="equipment">
-                    <div class="price">
+                <div class="services__item-box">
+                  <img class="services__item-image" src="склад_2.png" alt="equipment">
+                    <div class="services__item-price">
                       <p>5% от стоимости</p>
                     </div>
                 </div>
                 <h3 class="services-text">Комплектация</h3>
               </li>
             </ul>
-            <button class="js-btn big__btn services-btn" href="#">Заказать услугу</button>
+            <!-- <button class="js-btn big__btn services__btn" href="#">Заказать услугу</button> -->
+            <button class="js-btn big__btn services__btn">Заказать услугу</button>
 
             <div class="js-popup popup ">
               <div class="js-popup__content popup__content">
@@ -290,13 +291,12 @@
 
       <section class="reviews">
         <div class="container">
-         
             <h2>Отзывы</h2>
-            <div class="row">
-              <div class="col">
-                <div class="content">
-                  <h4 class="review__title">Ксения, проект 65 кв.м.</h4>
-                  <p class="review__text">
+            <div class="reviews__row">
+              <div class="reviews__col">
+                <div class="reviews__content">
+                  <h4 class="reviews__content-title">Ксения, проект 65 кв.м.</h4>
+                  <p class="reviews__content-text">
                     Хочу искренне поблагодарить Вас за работу, проделанную на
                     высоком уровне! Нам с мужем было очень приятно с Вами
                     работать! Спасибо за Ваше умение правильно слышать пожелания
@@ -310,10 +310,10 @@
                   </p>
                 </div>
               </div>
-              <div class="col">
-                <div class="content">
-                  <h4 class="review__title">Регина, проект 89 кв.м.</h4>
-                  <p class="review__text">
+              <div class="reviews__col">
+                <div class="reviews__content">
+                  <h4 class="reviews__content-title">Регина, проект 89 кв.м.</h4>
+                  <p class="reviews__content-text">
                     Спасибо большое за такой классный проект! Все стильно,
                     круто, продумано! Очень приятно было с вами работать!
                     Спасибо, что терпели наши «хочу это, хочу то» в поисках
@@ -326,10 +326,10 @@
                   </p>
                 </div>
               </div>
-              <div class="col col_big">
-                <div class="content">
-                  <h4 class="review__title">Яна, проект 120 кв.м.</h4>
-                  <p class="review__text">
+              <div class="reviews__col reviews__col_big">
+                <div class="reviews__content">
+                  <h4 class="reviews__content-title">Яна, проект 120 кв.м.</h4>
+                  <p class="reviews__content-text">
                     Хотелось бы сказать большое спасибо за проделанную работу! В
                     задачу Марины входила разработка дизайн-проекта в
                     минимальные сроки, и мне, конечно, не хотелось при этом
@@ -353,7 +353,7 @@
       <section class="gallery">
         <div class="gallery__inner">
           <div class="container">
-            <p class="gallery__title">галерея проектов</p>
+            <h2 class="gallery__title">галерея проектов</h2>
             <div class="gallery__controls">
               <button class="gallery__control-prev"></button>
               <button class="gallery__control-next"></button>
@@ -395,14 +395,16 @@
             <h2>Контакты</h2>
            
             <div class="contacts__wrapper">
-              <div class="contacte__phone">
-                <a class="contact__phone" href="tel:+79358954535">+7 935 895-45-35</a>
+              <a class="contact__phone" href="tel:+79358954535">+7 935 895-45-35</a>
+              <a class="contact__email" href="mailto:hello@mail.com">hello@mail.com</a>
+              <!-- <div class="contacte__phone">
+                
               </div>
              
               <div class="contact__email">
-                <a class="contact__email" href="mailto:hello@mail.com">hello@mail.com</a>
+                
               </div>
-             
+              -->
             </div>
          </div>  
        </div>

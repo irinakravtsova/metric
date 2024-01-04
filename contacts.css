@@ -6,7 +6,7 @@
 }
 
 .contacts__wrapper {
-  padding-top: 66px;
+  margin-top: 66px;
   display: flex;
   justify-content: space-between;
   font-size: 60px;
