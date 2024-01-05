@@ -24,7 +24,7 @@
   color: #fff;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 961px) {
   .hero {
     margin-bottom: 120px;
   }
@@ -42,7 +42,7 @@
     bottom: 30px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 541px) {
   .hero {
     margin-bottom: 80px;
   }
