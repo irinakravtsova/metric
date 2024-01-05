@@ -154,7 +154,7 @@
   color: gray;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 961px) {
   .services {
    padding-bottom: 118px;
   }
@@ -163,17 +163,16 @@ margin-bottom: 31px;
   }
   .services__item-wrapper {
     margin-bottom: 74px;
-   
   }
   .services__item {
     width: calc(50% - 4px);
   }
-  .services__item-image {
+  .services__item-box {
     margin-bottom: 17px;
     height: 315px;
     
   }
-  .services-text {
+  .services__item-title {
     font-size: 25px;
     letter-spacing: -0.75px;
     line-height: 34px;
@@ -182,7 +181,7 @@ margin-bottom: 31px;
     padding-top: 31px;
     padding-left: 32px;
   }
-  .price {
+  .services__item-price {
     padding: 7px 26px 3px 27px;
     font-size: 20px;
     letter-spacing: -0.6px;
@@ -193,16 +192,13 @@ margin-bottom: 31px;
  
 }
 
-@media (max-width: 767px) {
+@media (max-width: 541px) {
   .services {
-   
-    padding: 81px 0 80px 0;
+     padding: 81px 0 80px 0;
   }
-
   .white {
    margin-bottom: 20px;
   }
-
   .services__item-wrapper {
     row-gap: 59px;
     margin-bottom: 57px;
@@ -210,34 +206,24 @@ margin-bottom: 31px;
   .services__item {
     width: 100%;
   }
-  .services__item-image {
+  .services__item-box {
     margin-bottom: 10px;
     height: 240px;
-    
-  }
-
-  .price {
-   top: 24px;
-   left: 25px;
+   }
+  .services__item-price {
+   top: 22px;
+   left: 26px;
+   padding: 6px 24px;
     font-size: 14px;
     letter-spacing: -0.42px;
     line-height: 19px;
   }
-  .services-text {
+  .services__item-title {
     font-size: 18px;
     letter-spacing: -0.54px;
     line-height: 25px;
   }
-  .price-wrapper {
-    padding-top: 24px;
-    padding-left: 24px;
-  }
-  .price {
-    padding: 6px 24px;
-    font-size: 14px;
-    letter-spacing: -0.42px;
-  }
-
+ 
   .popup__content {
     width: 100%;
   }

@@ -35,20 +35,19 @@ object-fit: cover;
   color: #fff;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 961px) {
   .projects {
-    margin-bottom: 97px;
+    margin-bottom: 95px;
   }
-  .projects__wrapper {
-    padding-top: 32px;
-  }
-  .projects__item {
-    margin-bottom: 80px;
+
+  .project__item {
+    margin-bottom: 83px;
   }
   .project__box {
-    height: 250px;
+    height: 450px;
   }
-  .projects__item:last-child {
+
+  .project__item:last-child {
     margin-bottom: 100px;
   }
  
@@ -60,21 +59,24 @@ object-fit: cover;
     line-height: 34px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 541px) {
   .projects {
     margin-bottom: 80px;
   }
   .projects__wrapper {
-    padding-top: 20px;
+   margin-top: 20px;
   }
   .projects__image {
     height: 250px;
      }
-  .projects__item {
+  .project__item {
     margin-bottom: 49px;
   }
-  .projects__item:last-child {
-    margin-bottom: 60px;
+  .project__item:last-child {
+    margin-bottom: 54px;
+  }
+  .project__box {
+    height: 250px;
   }
   .projects__img {
     margin-bottom: 20px;

@@ -12,8 +12,7 @@
   gap: 20px;
  }
 .nav__list {
- 
-  display: flex;
+   display: flex;
   gap: 60px;  
 }
 .logo__link {
@@ -59,7 +58,7 @@
 }
 .burger-btn {
  position: absolute;
-  right: 15px;
+  right: 0px;
   top: 0px;
   z-index: 2000;
 }
@@ -134,7 +133,7 @@
   text-decoration: none;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 961px) {
   .nav__list {
     display: none;
   }
@@ -196,15 +195,16 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 541px) {
   .header {
     margin-top: 30px;
-    margin-bottom: 56px;
+    margin-bottom: 62px;
   }
-  .logo-img {
+  .logo__link {
     width: 96px;
     height: 16px;
   }
+ 
   .burger-btn {
     top: 5px;
   }
