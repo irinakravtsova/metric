@@ -52,11 +52,7 @@
        </div>
     </header>
     <div class="js-burger burger">
-       <div class="burger__wrapper">
-        <div class="burger__left">
-        </div>
-        <div class="burger__right">
-           <div class=" burger__content">
+       <div class=" burger__content">
             <a class="logo-link" href="#">
               <img class="logo-burger" src="logo_mетрика.png" alt="logo_mетрика">
             </a> 
@@ -87,11 +83,9 @@
                 </li>
               </ul>
        
-               </div>
+             </div>
           </div>
-        </div> 
-      </div>
-    </div>
+     </div>
     <main>
       <section class="hero">
         <div class="container">
@@ -252,14 +246,14 @@
             <div class="js-popup popup ">
               <div class="js-popup__content popup__content">
                 <button class="js-popup__close-btn popup__close-btn"></button>
-                <div class="popup__inner">
-                  <p class="popup__title">Заказать услугу</p>
-                  <div class="popup__subtitle-wrapper">
+                              
+                  <div class="popup__wrapper">
+                    <p class="popup__title">Заказать услугу</p>
                     <p class="popup__subtitle" >Заполните форму, мы свяжемся с вами в течение суток
                     </p>
                   </div>
-                 
-                  <form class="order__form" >
+                  
+                  <form class="order__form" action="/example/handler.php" >
                     <input 
                     class="input order__input"
                     type="text"
@@ -277,10 +271,13 @@
                     type="tel"
                     name="phone"
                     placeholder="Номер телефона">
+
+                    <p class="popup__btn-form"><input type="submit" value="Отправить"></p>
+                   
                   </form>
                    
-                  <button class="popup__btn-form" href="#">Отправить</button>
-                </div>
+                 
+                <!-- </div>  -->
                
                </div>
             </div>

@@ -78,6 +78,7 @@
   position: relative;
   width: 777px;
   max-height: 100%;
+  padding: 94px 74px 86px 55px;
   overflow-y: auto;
    background-color: #fff;
   border-radius: 10px;
@@ -95,25 +96,23 @@
   background-image: url(кнопка_закрыть.png);
   cursor: pointer;
 }
-
-.popup__inner {
-  padding: 94px 74px 86px 55px;
+.popup__wrapper {
+  margin-bottom: 54px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
+
 .popup__title {
-  margin-bottom: 5px;
-  padding-left: 10px;
+  /* padding-left: 10px; */
   font-size: 45px;
   letter-spacing: -1.35px;
   line-height: 61px;
   text-align: center;
 }
-.popup__subtitle-wrapper {
-  max-width: 444px;
-  margin: 0 auto;
-}
+
 .popup__subtitle {
-  margin-bottom: 54px;
-   font-size: 18px;
+    font-size: 18px;
   letter-spacing: -0.82px;
   line-height: 25px;
   text-align: center;
@@ -226,22 +225,22 @@ margin-bottom: 31px;
  
   .popup__content {
     width: 100%;
-  }
-  .popup__inner {
     padding: 80px 16px 80px 16px;
   }
+  .popup__inner {
+    
+  }
   .popup__title {
-    margin-bottom: 11px;
     font-size: 25px;
     letter-spacing: -1px;
     line-height: 34px;
   }
-  .popup__subtitle-wrapper {
-    max-width: 209px;
-    margin: 0 auto;
+  .popup__wrapper {
+    gap: 11px;
+    margin-bottom: 50px;
+   
   }
   .popup__subtitle {
-    margin-bottom: 50px;
     font-size: 14px;
     letter-spacing: -0.42px;
     line-height: 19px;
