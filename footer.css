@@ -8,12 +8,16 @@
   padding-top: 60px;
   padding-bottom: 30px;
 }
+.footer__nav {
+ 
+  gap: 54px;
+
+}
 .nav {
   margin-right: 14px;
   display: flex;
   max-width: 450px;
-
-  gap: 54px;
+  /* gap: 54px; */
 }
 
 .nav__link:hover,
